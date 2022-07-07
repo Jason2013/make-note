@@ -13,3 +13,9 @@ python:
   install:
     - method: pip
       path: .
+
+# Build HTML, PDF & ePub
+formats:
+  - htmlzip
+  - epub
+  - pdf
